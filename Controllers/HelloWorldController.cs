@@ -23,7 +23,5 @@ public class HelloWorldController : Controller
         ViewData["Message"] = "Namaste " + name;
         ViewData["age"] = age;
         return View();
-
     }
 }
-
